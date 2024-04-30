@@ -31,6 +31,26 @@
           </tr>
         </tbody>
       </table>
+      <h2>Calculate currency</h2>
+      <div class="row p-3" id="converter">
+        <div class="col-6 col-sm-3">
+          <label for="form-currency" class="form-label">Base currency</label>
+          <select class="form-select" id="form-currency"></select>
+        </div>
+        <div class="col-6 col-sm-3">
+          <label for="to-currency" class="form-label">Desired currency</label>
+          <select class="form-select" id="form-currency"></select>
+        </div>
+        <div class="col-6 col-sm-3">
+          <label for="form-currency" class="form-label">Base currency</label>
+          <input class="form-control" id="amount" type="number"></input>
+        </div>
+        <div class="col-6 col-sm-3 d-flex align-items-end">
+          <button id="convert" class="btn btn-success">Convert</button>
+          <h4 id="result" class="ms-2">Result: </h4>
+        </div>
+
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
