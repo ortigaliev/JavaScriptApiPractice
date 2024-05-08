@@ -3,7 +3,7 @@ let count = 0;
 
 //select value and buttons
 const value = document.querySelector('#value');
-const btns = document.querySelectorAll('.btn');
+const btns = document.queryS torAll('.btn');
 
 btns.forEach(function (btn) {
   btn.addEventListener('click', function (e) {
@@ -25,6 +25,7 @@ btns.forEach(function (btn) {
     }
     if(count === 0){
       value.style.color = '#222';
+
     }
     value.textContent = count;
   })
